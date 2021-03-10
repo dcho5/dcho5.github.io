@@ -1,0 +1,21 @@
+body {
+    background: rgb(233, 246, 255);
+    font-family: helvetica;
+    text-align: center;
+}
+
+.adjacent {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.name {
+    font-size: 40px;
+}
+
+.contact {
+    font-size: 18px;
+}
