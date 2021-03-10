@@ -8,8 +8,16 @@ body {
     display: inline-block;
     text-align: left;
     vertical-align: middle;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.adjacent_center {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .name {
