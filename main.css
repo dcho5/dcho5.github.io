@@ -224,4 +224,8 @@ footer a:hover {
     footer br {
         display: initial;
     }
+    
+    body div {
+        font-size: 1.6rem;
+    }
 }
