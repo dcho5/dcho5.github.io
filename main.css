@@ -173,9 +173,9 @@ footer a:hover {
         height: auto;
     }
 
-    header div h1 {
+    /* header div h1 {
         font-size: 60px;
-    }
+    } */
 
     section div img {
         width: 15%;
@@ -195,22 +195,22 @@ footer a:hover {
         display: none;
     }
 
-    section h3 {
+    /* section h3 {
         font-size: 45px;
         text-align: center;
-    }
+    } */
 
     #scrollup {
         display: none;
     }
 
-    .projects strong {
+    /* .projects strong {
         font-size: 40px;
     }
 
     .projects em {
         font-size: 35px;
-    }
+    } */
 
     .projects img {
         width: 80%;
@@ -225,7 +225,11 @@ footer a:hover {
         display: initial;
     }
     
-    body div {
-        font-size: 1.6rem;
+    body {
+        font-size: 2rem;
+    }
+
+    .important2 {
+        font-size: 2rem;
     }
 }
