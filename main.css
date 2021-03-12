@@ -64,6 +64,10 @@ header div {
     margin: 10px 45px 10px 45px;
 }
 
+header div a {
+    margin: 0px 20px 0px 20px;
+}
+
 header div a:hover {
     filter: invert(1);
 }
@@ -147,4 +151,30 @@ footer a {
 
 footer a:hover {
     background: khaki;
+}
+
+@media screen and (max-width: 1020px) {
+    nav ul {
+        display: none;
+    }
+
+    #intro img {
+        width: 70%;
+        height: auto;
+        border-radius: 800px;
+    }
+    
+    header div img {
+        width: 15%;
+        height: auto;
+    }
+
+    div h3 {
+        display: none;
+    }
+
+    section h3 {
+        font-size: 40px;
+        text-align: center;
+    }
 }
