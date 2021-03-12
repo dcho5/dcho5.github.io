@@ -204,21 +204,21 @@ footer a:hover {
         display: none;
     }
 
-    footer {
+    .projects strong {
         font-size: 40px;
     }
 
-    .projects strong {
-        font-size: 35px;
-    }
-
     .projects em {
-        font-size: 25px;
+        font-size: 35px;
     }
 
     .projects img {
         width: 80%;
         height: auto;
+    }
+
+    footer {
+        font-size: 35px;
     }
 
     footer br {
