@@ -144,6 +144,10 @@ footer {
     padding: 5px;
 }
 
+footer br {
+    display: none;
+}
+
 footer a {
     text-decoration: none;
     color: white;
@@ -169,12 +173,55 @@ footer a:hover {
         height: auto;
     }
 
+    header div h1 {
+        font-size: 60px;
+    }
+
+    section div img {
+        width: 15%;
+        height: auto;
+    }
+
+    #ilogo {
+        text-align: center;
+    }
+
+    #iblock {
+        width: 50%;
+        height: auto;
+    }
+
     div h3 {
         display: none;
     }
 
     section h3 {
-        font-size: 40px;
+        font-size: 45px;
         text-align: center;
+    }
+
+    #scrollup {
+        display: none;
+    }
+
+    footer {
+        font-size: 40px;
+    }
+
+    .projects strong {
+        font-size: 35px;
+    }
+
+    .projects em {
+        font-size: 25px;
+    }
+
+    .projects img {
+        width: 80%;
+        height: auto;
+    }
+
+    footer br {
+        display: initial;
     }
 }
